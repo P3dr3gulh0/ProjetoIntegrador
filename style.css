@@ -1,0 +1,22 @@
+body{
+    background-color: #CFCFCF;
+}
+header{
+    border: 30px;
+    text-align: center;
+}
+
+.text{
+    color: black;
+}
+.edi2{
+    border-radius: 2px;
+}
+
+.escuro{
+    color: #CFCFCF;
+    background-color: #001D32;
+}
+.tClaro{
+    background-color: #FA7426;
+}
