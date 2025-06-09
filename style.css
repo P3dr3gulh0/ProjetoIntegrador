@@ -1,5 +1,7 @@
 body{
+    text-align: center;
     background-color: #CFCFCF;
+    margin: 0 auto;
 }
 header{
     border: 30px;
@@ -13,10 +15,27 @@ header{
     border-radius: 2px;
 }
 
-.escuro{
+.tEscuro{
     color: #CFCFCF;
     background-color: #001D32;
 }
 .tClaro{
+    color: #001D32;
     background-color: #FA7426;
+}
+.tNeutro{
+    color: #001D32;
+    background-color: #CFCFCF;
+}
+.myContainer{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    max-height: 800px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 12px 5px rgb(73, 73, 73);
+}
+a{
+    margin-right: 10px;
 }
