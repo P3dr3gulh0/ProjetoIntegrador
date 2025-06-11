@@ -12,109 +12,108 @@
 
 <body class="tEscuro">
   <!-- Barra de Navegação -->
-  <nav class="navbar navbar-expand-sm tEscuro">
-    <div class="container-fluid ">
-      <a class="navbar-brand text-light" href="#">Navbar</a>
-      <div class="justify-content">
-        <ul class="navbar-nav ms-3 d-flex flex-row gap-3">
-          <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Planos</a>
-          </li>
-          <li class="nav-item">
-            <button type="button" class="btn btn-light">Cadastrar </button>
-          </li>
-        </ul>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm tEscuro">
+      <div class="container-fluid ">
+        <a class="navbar-brand text-light" href="#" style="font-size: 50px;">Navbar</a>
+        <div class="justify-content">
+          <ul class="navbar-nav ms-3 d-flex flex-row gap-3">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#" style="font-size: 30px;">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#" style="font-size: 30px;">Planos</a>
+            </li>
+            <li class="nav-item">
+              <a href="cadastro.html"><button type="button" class="btn btn-light" style="font-size: 30px;">Cadastrar </button></a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 
   <!--Hero-->
-  <header class="" style="background-color: #CFCFCF; color: black;">
-    <div class="container col-xxl-8 px-4 py-5">
-      <img src="img/Logo trustwork (Apresentação) (1).png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
-        width="700" height="500" loading="lazy">
-      <div class="row align-items-center g-5 py-5 flex-column-reverse flex-lg-row">
-        <div class="col-lg-12">
-          <h1 class="display-5 fw-bold  lh-1 mb-3">De quem precisa para quem resolve</h1>
-          <p class="lead">Lorem, ipsum dolor sit amet</p>
+  <div class="container-fluid">
+    <header class="" style="background-color: #CFCFCF; color: black;">
+      <div class="container col-xxl-8 px-4 py-5">
+        <img src="img/Logo trustwork (Apresentação) (1).png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+          width="700" height="500" loading="lazy">
+        <div class="row align-items-center g-5 py-5 flex-column-reverse flex-lg-row">
+          <div class="col-lg-12">
+            <h1 class="display-5 fw-bold  lh-1 mb-3">De quem precisa para quem resolve</h1>
+            <p class="lead">Lorem, ipsum dolor sit amet</p>
+          </div>
+        </div>
+        <div class="row d-grid gap-2 d-md-flex ">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6">
+            <button type="button" class="btn btn-lg px-4   tClaro ">Download</button>
+            <a href="planos.html"></a><button type="button"
+              class="btn btn-outline-secondary btn-lg px-4">Funcionalidades</button></a>
+          </div>
+          <div class="col-lg-3"></div>
         </div>
       </div>
-      <div class="row d-grid gap-2 d-md-flex ">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-6">
-          <button type="button" class="btn btn-lg px-4   tClaro ">Download</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4  ">Funcionalidades</button>
-        </div>
-        <div class="col-lg-3"></div>
-      </div>
-    </div>
-  </header><br>
+    </header>
+  </div><br>
 
   <div class="text-center">
     <h1 id="vagas"><i class="bi bi-stars"> </i>Planos</h1>
   </div> <br>
 
   <!-- Cardis -->
-  <div class="container col-xxl-10 px-6 py-5 tNeutro">
-    <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-            <div class="card-body">
-              <h5 class="card-title">Plano Standard</h5>
-              <p class="card-text">Anúncios <br> texto <br> texto <br> texto </p>
-              <a href="#" class="btn btn-primary tClaro">Assinar</a>
-            </div>
-          </div>
+  <div class="">
+    <h1>Escolha o Seu Plano de Assinatura</h1>
+    <div class="carousel-container">
+      <div class="carousel" id="carousel">
+        <div class="card">
+          <h3>Básico</h3>
+          <div class="price">R$ 29,90/mês</div>
+          <ul>
+            <li>Acesso a conteúdos básicos</li>
+            <li>Suporte por e-mail</li>
+            <li>1 usuário</li>
+          </ul>
+          <a href="#assinar-basico">Assinar</a>
         </div>
-      </div>
-      <div class="carousel-item">
-        <div class="card w-100 tNeutro" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Plano Gold</p>
-            </h5>
-            <p class="card-text">texto <br> texto <br> texto <br> texto </p>
-            <a href="#" class="btn btn-primary tClaro">Assinar</a>
-          </div>
+        <div class="card">
+          <h3>Premium</h3>
+          <div class="price">R$ 59,90/mês</div>
+          <ul>
+            <li>Acesso a conteúdos premium</li>
+            <li>Suporte por e-mail e chat</li>
+            <li>Até 3 usuários</li>
+            <li>Relatórios personalizados</li>
+          </ul>
+          <a href="#assinar-premium">Assinar</a>
         </div>
-      </div>
-      <div class="carousel-item">
-        <div class="card w-100 tNeutro" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Plano Platinum</h5>
-            <p class="card-text">texto <br> texto <br> texto <br> texto </p>
-            <a href="#" class="btn btn-primary tClaro">Assinar</a>
-          </div>
+        <div class="card">
+          <h3>Empresarial</h3>
+          <div class="price">R$ 99,90/mês</div>
+          <ul>
+            <li>Acesso completo</li>
+            <li>Suporte prioritário 24/7</li>
+            <li>Usuários ilimitados</li>
+            <li>Relatórios avançados</li>
+            <li>Integrações exclusivas</li>
+          </ul>
+          <a href="#assinar-empresarial">Assinar</a>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-
-
-
-
+    <div class="carousel-buttons">
+      <button id="prevBtn" disabled>Anterior</button>
+      <button id="nextBtn">Próximo</button>
+    </div>
   </div>
   </div>
   </div>
-  <br><br><br>
+  <br>
   <!-- Rodapé -->
   <footer class="container-fluid mx-auto">
     <div class="row tClaro  px-5">
-      <div class="col-lg-6"><br><br>
+      <div class="col-lg-6"><br>
         <h5><i class="bi bi-envelope-open"></i> Receba vagas no seu e-mail</h5>
         <p>Cadastre-se e receba as melhores oportunidades de tecnologia</p>
       </div><br><br>
@@ -127,15 +126,15 @@
                 type="button">Cadastrar</button></div>
           </form>
         </ul>
-      </div><br><br>
+      </div>
     </div>
     <div class="row bg-dark text-light px-5">
       <div class="col-6 col-md-2 mb-3"><br><br>
         <h5>Tech Careers</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2">Conectamos talentos tech às melhores oportunidades desde 2023s</li>
-          <li class="nav-item mb-2"></li>
-          <li class="nav-item mb-2">Professor Diego</li>
+          <li class="nav-item mb-2">Texto Texto</li>
+          <li class="nav-item mb-2">Texto Texto</li>
+          <li class="nav-item mb-2">Texto Texto</li>
         </ul>
       </div>
       <div class="col-6 col-md-2 mb-3"><br><br>
@@ -150,7 +149,7 @@
         <h5>Contato</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 link-light"><i
-                class="bi bi-envelope"></i>diego@techcareers.com</a></li>
+                class="bi bi-envelope"></i>email@gmail.com</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 link-light"><i class="bi bi-telephone"></i>(34)
               977878-7878</a></li>
       </div>
