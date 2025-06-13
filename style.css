@@ -167,6 +167,26 @@ h1 {
     cursor: not-allowed;
 }
 
+#btn-download {
+    background-color: #FA7426;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+
+#btn-download:hover {
+    background-color: #d9611f; /* tom mais escuro no hover */
+    color: #001D32;
+    font-weight: bold;
+}
+
+
 @media (max-width: 480px) {
     .carousel-container {
         max-width: 300px;
